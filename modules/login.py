@@ -12,6 +12,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 import logging
 import os
 import zipfile
+import time
 
  
 def logIn(username, password, driver):
@@ -47,6 +48,7 @@ def logIn(username, password, driver):
     try:
         login_1.click()
     except:
+
         try:
             driver.refresh()
             logging.info('Driver refreshed')
@@ -83,6 +85,8 @@ def get_to_data_export(driver):
     )
 
     download_link.click()
+
+    time.sleep(10)
 
 
 
@@ -126,28 +130,42 @@ def unzip_xlsx_file(file_zips, files_dir):
 
 
 
+def unzip_all_files(file_zips, files_dir):
+    for zip_file in file_zips:
+        try:
+            zip_path = os.path.join(files_dir, zip_file)
+            
+            with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                # Extract all files in the zip archive
+                zip_ref.extractall(files_dir)
+                
+                logging.info(f'Extracted all files from {zip_file}')
+        except Exception as e:
+            logging.error(f'Error extracting files from {zip_file}: {e}')
+
+
+
 
 def unzip_files_in_same_dir():
-
-    # Get the directory path
-    files_dir_files = os.getcwd() + '\\downloads'
-
-    # List all files in the directory
-    files_list = os.listdir(files_dir_files)
-
-    # Filter out only files ending with .zip
-    file_zips = [file for file in files_list if file.endswith('.zip')]
-
-    print(file_zips)
-
-    #pass in a list of file_zips to be iterated. 
-    #Create a param fo elpac_or_sbac for logging purposes
-
     try:
-        unzip_xlsx_file(file_zips)
-        logging.info(f'Unzipped all files into the {files_dir_files}')
+        # Get the current working directory and the 'downloads' subdirectory
+        files_dir = os.path.join(os.getcwd(), 'downloads')
+        
+        # List all files in the 'downloads' directory
+        files_list = os.listdir(files_dir)
+        
+        # Filter out only files ending with .zip
+        file_zips = [file for file in files_list if file.endswith('.zip')]
+        
+        if file_zips:
+            unzip_all_files(file_zips, files_dir)
+            logging.info(f'Unzipped all files into {files_dir}')
+        else:
+            print("No .zip files found in the 'downloads' directory.")
+            logging.info('No .zip files found in the "downloads" directory.')
     except Exception as e:
-        logging.info(f'Unable to unzip file due to error - {e}')
+        logging.error(f'Unable to unzip files due to error: {e}')
+
 
 
     

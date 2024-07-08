@@ -111,3 +111,109 @@
 08-Jul-24 11:17:40 - Get LATEST chromedriver version for google-chrome
 08-Jul-24 11:17:40 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
 08-Jul-24 11:33:01 - Unable to unzip file due to error - unzip_xlsx_file() missing 1 required positional argument: 'files_dir'
+08-Jul-24 13:02:59 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:02:59 - Directory 'downloads' already exists.
+08-Jul-24 13:02:59 - ====== WebDriver manager ======
+08-Jul-24 13:03:00 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:03:01 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:03:01 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:10:30 - No .xlsx files found in 486992 (1).zip
+08-Jul-24 13:10:30 - No .xlsx files found in 486992 (2).zip
+08-Jul-24 13:10:30 - No .xlsx files found in 486992.zip
+08-Jul-24 13:10:30 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
+08-Jul-24 13:12:19 - Extracted all files from 486992 (1).zip
+08-Jul-24 13:12:19 - Extracted all files from 486992 (2).zip
+08-Jul-24 13:12:19 - Extracted all files from 486992.zip
+08-Jul-24 13:12:19 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
+08-Jul-24 13:12:53 - Extracted all files from 486992.zip
+08-Jul-24 13:12:53 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
+08-Jul-24 13:14:12 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:14:12 - Directory 'downloads' already exists.
+08-Jul-24 13:14:12 - ====== WebDriver manager ======
+08-Jul-24 13:14:14 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:14:14 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:14:14 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:14:32 - Extracted all files from 486992.zip
+08-Jul-24 13:14:32 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
+08-Jul-24 13:14:55 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:14:55 - Directory 'downloads' already exists.
+08-Jul-24 13:14:55 - ====== WebDriver manager ======
+08-Jul-24 13:14:57 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:14:57 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:14:57 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:15:14 - No .zip files found in the "downloads" directory.
+08-Jul-24 13:16:20 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:16:20 - Directory 'downloads' already exists.
+08-Jul-24 13:16:20 - ====== WebDriver manager ======
+08-Jul-24 13:16:22 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:16:22 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:16:22 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:16:37 - No .zip files found in the "downloads" directory.
+08-Jul-24 13:16:56 - Extracted all files from 486992.zip
+08-Jul-24 13:16:56 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
+08-Jul-24 13:23:41 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:23:41 - Directory 'downloads' already exists.
+08-Jul-24 13:23:41 - ====== WebDriver manager ======
+08-Jul-24 13:23:43 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:23:43 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:23:43 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:24:38 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:24:38 - Directory 'downloads' already exists.
+08-Jul-24 13:24:38 - ====== WebDriver manager ======
+08-Jul-24 13:24:40 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:24:40 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:24:40 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:24:45 - Driver refreshed
+08-Jul-24 13:35:02 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:35:02 - Directory 'downloads' already exists.
+08-Jul-24 13:35:02 - ====== WebDriver manager ======
+08-Jul-24 13:35:04 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:35:04 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:35:04 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:35:27 - Extracted all files from 486992 (1).zip
+08-Jul-24 13:35:27 - Extracted all files from 486992.zip
+08-Jul-24 13:35:27 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
+08-Jul-24 13:37:42 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:37:42 - Directory 'downloads' created successfully.
+08-Jul-24 13:37:42 - ====== WebDriver manager ======
+08-Jul-24 13:37:44 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:37:44 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:37:45 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:38:11 - Extracted all files from 486992.zip
+08-Jul-24 13:38:11 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
+08-Jul-24 13:39:00 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:39:00 - Directory 'downloads' created successfully.
+08-Jul-24 13:39:00 - ====== WebDriver manager ======
+08-Jul-24 13:39:02 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:39:02 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:39:02 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:39:27 - Extracted all files from 486992.zip
+08-Jul-24 13:39:27 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
+08-Jul-24 13:40:47 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 13:40:47 - Directory 'downloads' created successfully.
+08-Jul-24 13:40:47 - ====== WebDriver manager ======
+08-Jul-24 13:40:49 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:40:49 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 13:40:49 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 13:41:17 - Extracted all files from 486992.zip
+08-Jul-24 13:41:17 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
