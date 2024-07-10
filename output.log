@@ -1,0 +1,3 @@
+main.py:18: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(ChromeDriverManager().install(), options = chrome_options)
+Directory 'downloads' created successfully.

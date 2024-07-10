@@ -1,6 +1,7 @@
 from modules.login import *
 from config import username, password
 import shutil
+import sys
 
 logging.basicConfig(filename='NWEA_Map.log', level=logging.INFO,
                    format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S',force=True)
@@ -19,4 +20,14 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options = chrome_opti
 logIn(username, password, driver)
 get_to_data_export(driver)
 unzip_files_in_same_dir()
-driver.close()
+
+
+try:
+    driver.quit()
+    logging.info('Browser closed.')
+except Exception as e:
+    logging.error(f'Error closing browser: {e}')
+
+# Confirm script exit
+logging.info('Script exiting.')
+sys.exit(0)

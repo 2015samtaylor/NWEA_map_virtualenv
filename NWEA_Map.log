@@ -217,3 +217,119 @@
 08-Jul-24 13:40:49 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
 08-Jul-24 13:41:17 - Extracted all files from 486992.zip
 08-Jul-24 13:41:17 - Unzipped all files into c:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\downloads
+08-Jul-24 14:29:50 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 14:29:50 - Directory 'downloads' created successfully.
+08-Jul-24 14:29:50 - ====== WebDriver manager ======
+08-Jul-24 14:29:55 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:29:55 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:29:55 - There is no [win64] chromedriver "126.0.6478.126" for browser google-chrome "126.0.6478" in cache
+08-Jul-24 14:29:55 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:29:55 - WebDriver version 126.0.6478.126 selected
+08-Jul-24 14:29:55 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+08-Jul-24 14:29:55 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+08-Jul-24 14:29:55 - Driver downloading response is 200
+08-Jul-24 14:29:55 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:29:56 - Driver has been saved in cache [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126]
+08-Jul-24 14:30:18 - Extracted all files from 486992.zip
+08-Jul-24 14:30:18 - Unzipped all files into c:\Users\psadmin\Desktop\DW\NWEA\downloads
+08-Jul-24 14:48:16 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 14:48:16 - Directory 'downloads' created successfully.
+08-Jul-24 14:48:16 - ====== WebDriver manager ======
+08-Jul-24 14:48:18 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:48:18 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:48:18 - Driver [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 14:48:27 - Driver refreshed
+08-Jul-24 14:50:41 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 14:50:41 - Directory 'downloads' created successfully.
+08-Jul-24 14:50:41 - ====== WebDriver manager ======
+08-Jul-24 14:50:42 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:50:42 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:50:42 - Driver [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 14:51:03 - Extracted all files from 486992.zip
+08-Jul-24 14:51:03 - Unzipped all files into C:\Users\psadmin\Desktop\DW\NWEA\downloads
+08-Jul-24 14:51:37 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 14:51:37 - Directory 'downloads' created successfully.
+08-Jul-24 14:51:37 - ====== WebDriver manager ======
+08-Jul-24 14:51:39 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:51:39 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:51:39 - Driver [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 14:52:02 - Extracted all files from 486992.zip
+08-Jul-24 14:52:02 - Unzipped all files into C:\Users\psadmin\Desktop\DW\NWEA\downloads
+08-Jul-24 14:53:41 - 
+
+-------------NWEA_Map new instance log
+08-Jul-24 14:53:41 - Directory 'downloads' created successfully.
+08-Jul-24 14:53:41 - ====== WebDriver manager ======
+08-Jul-24 14:53:43 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:53:43 - Get LATEST chromedriver version for google-chrome
+08-Jul-24 14:53:43 - Driver [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+08-Jul-24 14:54:06 - Extracted all files from 486992.zip
+08-Jul-24 14:54:06 - Unzipped all files into C:\Users\psadmin\Desktop\DW\NWEA\downloads
+10-Jul-24 09:41:34 - 
+
+-------------NWEA_Map new instance log
+10-Jul-24 09:41:34 - Directory 'downloads' created successfully.
+10-Jul-24 09:41:34 - ====== WebDriver manager ======
+10-Jul-24 09:41:36 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:41:36 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:41:36 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:41:36 - WebDriver version 126.0.6478.126 selected
+10-Jul-24 09:41:36 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+10-Jul-24 09:41:36 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+10-Jul-24 09:41:36 - Driver downloading response is 200
+10-Jul-24 09:41:36 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:41:37 - Driver has been saved in cache [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126]
+10-Jul-24 09:42:00 - Extracted all files from 486992.zip
+10-Jul-24 09:42:00 - Unzipped all files into C:\Users\psadmin\Desktop\DW\NWEA\downloads
+10-Jul-24 09:43:26 - 
+
+-------------NWEA_Map new instance log
+10-Jul-24 09:43:26 - Directory 'downloads' created successfully.
+10-Jul-24 09:43:26 - ====== WebDriver manager ======
+10-Jul-24 09:43:27 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:43:27 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:43:27 - Driver [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+10-Jul-24 09:43:50 - Extracted all files from 486992.zip
+10-Jul-24 09:43:50 - Unzipped all files into C:\Users\psadmin\Desktop\DW\NWEA\downloads
+10-Jul-24 09:46:21 - 
+
+-------------NWEA_Map new instance log
+10-Jul-24 09:46:21 - Directory 'downloads' created successfully.
+10-Jul-24 09:46:21 - ====== WebDriver manager ======
+10-Jul-24 09:46:22 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:46:22 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:46:22 - Driver [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+10-Jul-24 09:46:44 - Extracted all files from 486992.zip
+10-Jul-24 09:46:44 - Unzipped all files into C:\Users\psadmin\Desktop\DW\NWEA\downloads
+10-Jul-24 09:47:07 - 
+
+-------------NWEA_Map new instance log
+10-Jul-24 09:47:07 - Directory 'downloads' created successfully.
+10-Jul-24 09:47:07 - ====== WebDriver manager ======
+10-Jul-24 09:47:08 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:47:08 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:47:08 - Driver [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+10-Jul-24 09:47:31 - Extracted all files from 486992.zip
+10-Jul-24 09:47:31 - Unzipped all files into C:\Users\psadmin\Desktop\DW\NWEA\downloads
+10-Jul-24 09:47:33 - Browser closed.
+10-Jul-24 09:47:33 - Script exiting.
+10-Jul-24 09:50:26 - 
+
+-------------NWEA_Map new instance log
+10-Jul-24 09:50:26 - Directory 'downloads' created successfully.
+10-Jul-24 09:50:26 - ====== WebDriver manager ======
+10-Jul-24 09:50:28 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:50:28 - Get LATEST chromedriver version for google-chrome
+10-Jul-24 09:50:28 - Driver [C:\Users\psadmin\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+10-Jul-24 09:50:49 - Extracted all files from 486992.zip
+10-Jul-24 09:50:49 - Unzipped all files into C:\Users\psadmin\Desktop\DW\NWEA\downloads
+10-Jul-24 09:50:52 - Browser closed.
+10-Jul-24 09:50:52 - Script exiting.
