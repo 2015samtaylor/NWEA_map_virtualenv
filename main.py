@@ -7,7 +7,12 @@ logging.basicConfig(filename='NWEA_Map.log', level=logging.INFO,
                    format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S',force=True)
 logging.info('\n\n-------------NWEA_Map new instance log')
 
-shutil.rmtree(os.getcwd() + '\\downloads')
+try:
+    shutil.rmtree(os.getcwd() + '\\downloads')
+    logging.info('Removing downloads folder')
+except FileNotFoundError:
+    logging.info('Unable to remove downloads folder, it does not exist')
+
 create_directory('downloads')
 
 chrome_options = webdriver.ChromeOptions()

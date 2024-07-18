@@ -20,6 +20,16 @@ def logIn(username, password, driver):
     driver.maximize_window()
     windowSize = driver.get_window_size()
 
+    ok_button = WebDriverWait(driver, 30).until(
+    EC.element_to_be_clickable((By.ID, "ok_button"))
+    )
+
+    try:
+        ok_button.click()
+        logging.info('Bypassing pop up on login page')
+    except:
+        logging.error('Unable to click ok button to clear pop up')
+
     username_input = WebDriverWait(driver, 30).until(
         EC.element_to_be_clickable((By.ID, "username"))
     )
@@ -48,24 +58,7 @@ def logIn(username, password, driver):
     try:
         login_1.click()
     except:
-
-        try:
-            driver.refresh()
-            logging.info('Driver refreshed')
-        except:
-            logging.error('Unable to refreshd driver')
-
-
-        ok_button = WebDriverWait(driver, 30).until(
-        EC.element_to_be_clickable((By.ID, "ok_button"))
-        )
-
-        try:
-            ok_button.click()
-        except:
-            logging.error('Unable to click ok button to clear pop up')
-
-        logging.error('Unable to login')
+        logging.info('Unable to login')
 
 
 
