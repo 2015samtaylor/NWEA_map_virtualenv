@@ -14,49 +14,57 @@ import os
 import zipfile
 import time
 
+
+
  
-def logIn(username, password, driver):
+def logIn(email, password, driver):
     driver.get('https://sso.mapnwea.org/auth/login')
     driver.maximize_window()
     windowSize = driver.get_window_size()
 
-    ok_button = WebDriverWait(driver, 30).until(
-    EC.element_to_be_clickable((By.ID, "ok_button"))
-    )
 
     try:
+        ok_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.ID, "ok_button"))
+        )
         ok_button.click()
         logging.info('Bypassing pop up on login page')
     except:
         logging.error('Unable to click ok button to clear pop up')
 
-    username_input = WebDriverWait(driver, 30).until(
-        EC.element_to_be_clickable((By.ID, "username"))
-    )
 
     try:
-        username_input.send_keys(username)
+        login_email = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.ID, "login-email"))
+        )
+        login_email.send_keys(email)
     except:
-        logging.error('Unable to send keys')
+        logging.error('Unable to send keys to email field')
 
-
-    password_input = WebDriverWait(driver, 30).until(
-        EC.element_to_be_clickable((By.ID, "password"))
-    )
     try:
+        continue_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[data-test-id="continue-btn"]'))
+        )
+
+        continue_button.click()
+    except:
+        logging.error('Unable to hit continue button')
+
+    
+    try:
+        password_input = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.ID, "password"))
+        )
         password_input.send_keys(password)
     except:
         logging.error('Unable to send password')
 
 
-
-
-
-    login_1 = WebDriverWait(driver, 30).until(
-        EC.element_to_be_clickable((By.ID, "login_button"))
-    )
     try:
-        login_1.click()
+        login_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[data-test-id="login-btn"]'))
+        )
+        login_button.click()
     except:
         logging.info('Unable to login')
 
