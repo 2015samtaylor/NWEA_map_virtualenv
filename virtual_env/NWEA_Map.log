@@ -1,0 +1,30 @@
+22-Jul-24 10:43:03 - 
+
+-------------NWEA_Map new instance log
+22-Jul-24 10:43:03 - Unable to remove downloads folder, it does not exist
+22-Jul-24 10:43:03 - Directory 'downloads' created successfully.
+22-Jul-24 10:43:03 - ====== WebDriver manager ======
+22-Jul-24 10:43:04 - Get LATEST chromedriver version for google-chrome
+22-Jul-24 10:43:04 - Get LATEST chromedriver version for google-chrome
+22-Jul-24 10:43:05 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+22-Jul-24 10:43:20 - Unable to click ok button to clear pop up
+22-Jul-24 10:43:42 - Extracted all files from 486992.zip
+22-Jul-24 10:43:42 - Unzipped all files into C:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\virtual_env\downloads
+22-Jul-24 10:43:44 - Browser closed.
+22-Jul-24 10:43:44 - Script exiting.
+22-Jul-24 10:43:47 - Logs sent to process_log table on 89 server
+22-Jul-24 10:47:55 - 
+
+-------------NWEA_Map new instance log
+22-Jul-24 10:47:55 - Removing downloads folder
+22-Jul-24 10:47:55 - Directory 'downloads' created successfully.
+22-Jul-24 10:47:55 - ====== WebDriver manager ======
+22-Jul-24 10:47:56 - Get LATEST chromedriver version for google-chrome
+22-Jul-24 10:47:56 - Get LATEST chromedriver version for google-chrome
+22-Jul-24 10:47:56 - Driver [C:\Users\samuel.taylor\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+22-Jul-24 10:48:13 - Unable to click ok button to clear pop up
+22-Jul-24 10:48:35 - Extracted all files from 486992.zip
+22-Jul-24 10:48:35 - Unzipped all files into C:\Users\samuel.taylor\OneDrive - Green Dot Public Schools\Desktop\Git_Directory\NWEA_Map\virtual_env\downloads
+22-Jul-24 10:48:37 - Browser closed.
+22-Jul-24 10:48:37 - Script exiting.
+22-Jul-24 10:48:43 - Logs sent to process_log table on 89 server
